@@ -1,3 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    color: #343a40; /* Texto escuro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* Azul moderno */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 img {
     width: 350px; 
     height: 350px; 
@@ -5,4 +79,47 @@ img {
     border: 1px solid #ccc; 
     border-radius: 5px; 
     background-color: #f9f9f9;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input:focus, form select:focus {
+    border-color: #007bff;
+    outline: none;
 }
